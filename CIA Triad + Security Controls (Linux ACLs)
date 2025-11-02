@@ -1,0 +1,15 @@
+CIA Triad + Security Controls (Linux ACLs)
+
+This lab demonstrates how to enforce the CIA triad using Linux file permissions and ACLs, simulate access violations, and detect them using auditd — just like in a real SOC.
+
+Topics Covered
+- CIA Triad (Confidentiality, Integrity, Availability)
+- Security Controls (Administrative, Technical, Physical)
+- Linux ACLs
+- File access violation simulation
+- auditd for detection
+
+Tools Used
+- Linux (Ubuntu)
+- auditd
+- setfacl / getfacl
