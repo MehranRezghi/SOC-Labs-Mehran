@@ -1,0 +1,19 @@
+setfacl RBAC Lab (SOC Analyst Training)
+
+Objective
+Use `setfacl` to enforce RBAC, simulate access violations, and validate with logs and packet traces.
+
+Tools
+- Linux (Ubuntu 22.04)
+- ACL (`setfacl`, `getfacl`)
+- tcpdump + Wireshark
+
+Scenarios
+- RBAC enforcement
+- Unauthorized access detection
+- File exfiltration trace
+
+Validation
+- `getfacl` output
+- Access denied logs
+- Wireshark packet trace
